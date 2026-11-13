@@ -6,7 +6,8 @@
 class Flowcast < Formula
   desc "Record, test, and demonstrate web app interactions with Playwright"
   homepage "https://github.com/mggwxyz/flowcast"
-  url "https://github.com/mggwxyz/flowcast.git", tag: "v0.2.0" # x-release-please-version
+  url "https://github.com/mggwxyz/flowcast.git", tag:      "v0.2.0", # x-release-please-version
+                                                 revision: "19d2ca3bcdb54e6ce304c4f518693f3b96f17ee4"
   license "MIT"
 
   depends_on "pnpm" => :build
